@@ -7,22 +7,10 @@
       "reminder": true
     },
     {
-      "id": 3,
-      "task": "Food shopping",
-      "date": "Feb 1st at 2pm",
-      "reminder": false
-    },
-    {
-      "id": 4,
-      "task": "Task due",
-      "date": "Feb 10th at 11pm",
-      "reminder": true
-    },
-    {
-      "task": "Buy Juice",
-      "date": "Tomorrow, 3pm",
+      "task": "juice",
+      "date": "juicer",
       "reminder": true,
-      "id": 5
+      "id": 2
     }
   ]
 }
