@@ -55,8 +55,10 @@ function App() {
 
 	return (
 		<div className="App">
-			<Header />
-			<AddTask onAddTask={addTask} />
+			<Header onAddClick={() => setShowAddTask(!showAddTask)} />
+
+			{showAddTask && <AddTask onAddClick={addTask} />}
+
 			{tasks.length > 0 ? (
 				<Tasks
 					tasks={tasks}
